@@ -1,2 +1,2 @@
 
-web: sh setup.sh && Maths_Equations run app.py
+web: sh setup.sh && CALCULATOR run app.py
