@@ -1,2 +1,1 @@
-
-web: sh setup.sh && CALCULATOR run app.py
+web: gunicorn app:app
