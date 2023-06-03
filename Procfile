@@ -1,2 +1,2 @@
-web gunicorn calculator.wsgi:application --log-file -
+web gunicorn CALCULATOR.wsgi:application --log-file -
 
