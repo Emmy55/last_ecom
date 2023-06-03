@@ -11,6 +11,16 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
+# wsgi.py
+
+from django.core.wsgi import get_wsgi_application
+from whitenoise import WhiteNoise
+
+application = get_wsgi_application()
+application = WhiteNoise(application)
+
+
+
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'CALCULATOR.settings')
 
 application = get_wsgi_application()

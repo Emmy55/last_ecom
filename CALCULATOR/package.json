@@ -1,0 +1,8 @@
+// package.json
+
+{
+    "scripts": {
+      "heroku-postbuild": "python manage.py collectstatic --noinput"
+    }
+  }
+  
