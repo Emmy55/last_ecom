@@ -444,12 +444,16 @@ a {
                         /* text-transform: uppercase; */
             
                     }
-                    h2{
+                    h2, p .note{
                         font-size: 29px;
                         text-align: center;
                         color: white;
                         position: relative;
                         top: 20px;
+                    }
+                    p .note {
+                        color: white;
+                        font-size: 20px;
                     }
                     h4::before{
                         content: attr(data-text);
