@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Calculate</title>
+  <title>EMcalculate</title>
   <link rel="icon" href="{% static 'Maths_Equations/image/math_log.png' %}">
   <link rel="stylesheet" href="{% static 'Maths_Equations/styles.css' %}">
   <link rel="stylesheet" href="{% static 'Maths_Equations/select.css' %}">
@@ -13,7 +13,7 @@
 
 
 </head>
-<body style="background-image: url('{% static 'Maths_Equations/image/bkgrnd.gif' %}');">
+<body style="background-image: url('{% static 'Maths_Equations/image/back.gif' %}');">
   
     <div class="cont">
 
@@ -184,9 +184,9 @@
         </ul>
       </div>
   <form action="{% url 'ansbook' %}" id="add" method="get">
-    <input type="number" placeholder="first number" name="first">
+    <input type="number" placeholder="First number" name="first">
     <br><br>
-    <input type="number" placeholder="second number" name="second">
+    <input type="number" placeholder="Second number" name="second">
     <br><br>
     <input type="submit" value="SOLVE" class="animate__slideInLeft animate__animated">
   </form>
@@ -199,13 +199,4 @@
 
   <!-- <img class="img1" src="{% static 'Maths_Equations/image/bkgrnd.gif' %}" alt=""> -->
 
-</body>
-<script type="text/javascript">
-  // function formAutoSubmit() {
-  //   var frm = document.getElementById("add")
-  //   frm.submit()
-  // }
-  // window.onload = formAutoSubmit;
-
-//   
 </html>

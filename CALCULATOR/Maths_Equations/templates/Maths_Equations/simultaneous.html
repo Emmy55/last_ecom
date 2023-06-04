@@ -5,46 +5,63 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Calculate</title>
+  <title>EMcalculate</title>
   <link rel="icon" href="{% static 'Maths_Equations/image/math_log.png' %}">
   <link rel="stylesheet" href="{% static 'Maths_Equations/styles.css' %}">
   <link rel="stylesheet" href="{% static 'Maths_Equations/select.css' %}">
   <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 
-    <style>
+
+  
+  <style>
         input[ type = 'number']{
             width: 20%;
         }
         input[ type = 'submit']{
             width: 25%;
             position: relative;
-            left: 400px;
+            left: 53%;
             top: 13px;
         }
         .input {
             position: relative;
-            left: 200px;
+            left: 18%;
             top: 40px;
         }
-        @media only screen and (max-width:600px) {
+        .cont{
+        background-color: rgba(25, 224, 41, 0.619);
+        height:88vh;
+        top: 20px;
+        position: relative;
+        /* left: 25px; */
+    }
+    
+        @media only screen and (max-width:767px) {
+          .cont{
+        background-color: rgba(25, 224, 41, 0.619);
+        height: 99vh;
+        top: 20px;
+        position: relative;
+        /* left: 25px; */
+    }
           input[ type = 'number']{
             width: 40%;
         }
         input[ type = 'submit']{
             width: 35%;
             position: relative;
-            left: 170px;
+            left: 52%;
             top: 49px;
         }
         .input {
             position: relative;
-            left: 200px;
-            top: 40px;
+            left: 18%;
+            top: 0px;
         }
         }
     </style>
 </head>
-<body style="background-image: url('{% static 'Maths_Equations/image/bkgrnd.gif' %}');">
+<body style="background-image: url('{% static 'Maths_Equations/image/back.gif' %}');">
   
     <div class="cont">
     <h2>What are we calculating today?</h2>

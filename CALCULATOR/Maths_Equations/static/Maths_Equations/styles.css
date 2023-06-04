@@ -10,12 +10,12 @@ a {
     text-decoration: none;
     color: black;
 }
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:767px) {
             
     #dropdown {
         position: relative;
         top: 110px;
-        left: 300px;
+        left: 310px;
         width: 31%;
         color: white;
         background-color: rgba(0, 0, 0, 0.534);
@@ -62,8 +62,8 @@ a {
     }
     
     .cont{
-        background-color: rgba(0, 0, 255, 0.272);
-        height: 77vh;
+        background-color: rgba(25, 224, 41, 0.619);
+        height: 86vh;
         border-radius: 10px;
         top: 39px;
         width: 100%;
@@ -149,142 +149,22 @@ a {
             }
 }
 
-@media screen and (min-width:600px) {
-    #dropdown {
-        position: relative;
-        top: 110px;
-        left: 300px;
-        width: 31%;
-        color: white;
-        background-color: rgba(0, 0, 0, 0.534);
-        border-radius: 10px;
-        padding: 3px;
-        height: 50px;
-    }
-    input[ type = 'number'] {
-        position: relative;
-        top:110px;
-        border-radius: 10px;
-        left: 61px;
-        padding-left: 13px;
-        border: none;
-        width: 80%;
-        color: black;
-        background-color: white;
-        height: 40px;
-    }
-    input  {
-        position: relative;
-        bottom: -145px;
-        left:189px;
-        color: white;
-        background-color: rgba(0, 0, 0, 0.861);
-        border-radius: 20px;
-        border: none;
-        width: 39%;
-        height: 50px;
-    }
-    #dropdown *
-    {
-        height: 100px;
-        width: 40px;
-        border-radius: 2px;
-        border-radius: 20px;
-        background-color: rgb(75, 65, 65);
-    }
-    #dropdown * :hover{
-        background-color: rgba(0, 0, 255, 0.819);
-    }
-    #dropdown:focus{
-        outline: none;
-    }
-    
-    .cont{
-        background-color: rgba(0, 0, 255, 0.272);
-        height: 77vh;
-        border-radius: 10px;
-        top: 39px;
-        width: 100%;
-        position: relative;
-        /* left: 25px; */
-    }
-    .ansbook{
-        height: 90px;
-        width: 30%;
-        text-align: center;
-        top: 200px;
-        border-radius: 20px;
-        position: relative;
-        left: 269px;
-        background-color: rgba(0, 0, 0, 0.552);
-    }
-    .ansbook h3 {
-        position: relative;
-        top: 22px;
-        color: white;
-    }
-    
-    
-    
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
-            * {
-                margin: 0;
-                padding: 0;
-                font-family: 'Poppins', sans-serif;
-                box-sizing: border-box;
-            }
-           
-            h4 {
-                font-size: 18px;
-                        width: 60%;
-                        position: relative;
-                top: 30px;
-                left: 175px;
-                /* text-align: center; */
-                color: #0023eb00;
-                -webkit-text-stroke: 0.3vw #0033ff00;
-                /* text-transform: uppercase; */
-    
-            }
-            h2, .note{
-                font-size: 29px;
-                text-align: center;
-                color: white;
-                position: relative;
-                top: 20px;
-            }
-            .note {
-                font-size: 20px;
-            }
-            h4::before{
-                content: attr(data-text);
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 0%;
-                height: 100%;
-                color: white;
-                /* -webkit-text-stroke: 0.2vw #000000; */
-                border-right: 2px solid #1e00ff00;
-                overflow: hidden;
-                
-                animation: animate 4s linear infinite;
-            }
-            @keyframes animate {
-                0%,10%,100% {
-                    width: 0;
-                }
-                70%, 100%{
-                    width: 85%;
-                }
-            }   
-    }
-@media screen and (min-width:768px) {
+    @media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+        .cont{
+            background-color: rgba(25, 224, 41, 0.619);
+            height: 80vh;
+            border-radius: 10px;
+            top: 59px;
+            width: 80%;
+            position: relative;
+            left: 10%;
+        }
     input[ type = 'number'] {
                 position: relative;
                 top: 80px;
                 border-radius: 10px;
-                left: 279px;
+                left: 31%;
                 padding-left: 13px;
                 border: none;
                 width: 39%;
@@ -295,7 +175,7 @@ a {
             input  {
                 position: relative;
                 top: 95px;
-                left: 235px;
+                left: 27%;
                 color: white;
                 background-color: rgba(0, 0, 0, 0.861);
                 border-radius: 20px;
@@ -316,7 +196,7 @@ a {
                         position: relative;
                         width: 60%;
                         top: 30px;
-                        left: 329px;
+                        left: 30%;
                         /* text-align: center; */
                         color: #0023eb00;
                         -webkit-text-stroke: 0.3vw #0033ff00;
@@ -357,7 +237,7 @@ a {
                     }
 }
 
-    @media screen and (min-width:992px) {
+@media only screen and (min-width: 1024px) {
             #dropdown {
                 position: relative;
                 top: 110px;
@@ -373,7 +253,7 @@ a {
                 position: relative;
                 top: 80px;
                 border-radius: 10px;
-                left: 236px;
+                left: 30%;
                 padding-left: 13px;
                 border: none;
                 width: 39%;
@@ -384,7 +264,7 @@ a {
             input  {
                 position: relative;
                 top: 95px;
-                left: 200px;
+                left: 26%;
                 color: white;
                 background-color: rgba(0, 0, 0, 0.861);
                 border-radius: 20px;
@@ -408,13 +288,13 @@ a {
             }
             
             .cont{
-                background-color: rgba(0, 0, 255, 0.438);
-                height: 80vh;
+                background-color: rgba(25, 224, 41, 0.619);
+                height: 84vh;
                 border-radius: 10px;
                 top: 59px;
                 width: 60%;
                 position: relative;
-                left: 270px;
+                left: 20%;
             }
             .ansbook{
                 height: 90px;
@@ -441,28 +321,22 @@ a {
                         font-family: 'Poppins', sans-serif;
                         box-sizing: border-box;
                     }
-                   
-                    h4 {
-                        font-size: 18px;
-                        position: relative;
-                        top: 30px;
-                        left: 259px;
-                        /* text-align: center; */
-                        color: #0023eb00;
-                        -webkit-text-stroke: 0.3vw #0033ff00;
-                        /* text-transform: uppercase; */
-            
-                    }
-                    h2, p .note{
+                    h2{
                         font-size: 29px;
                         text-align: center;
                         color: white;
                         position: relative;
                         top: 20px;
                     }
-                    p .note {
-                        color: white;
-                        font-size: 20px;
+                    h4 {
+                        font-size: 18px;
+                        position: relative;
+                        top: 30px;
+                        left: 34%;
+                        /* text-align: center; */
+                        color: #0023eb00;
+                        -webkit-text-stroke: 0.3vw #0033ff00;
+                        /* text-transform: uppercase; */
                     }
                     h4::before{
                         content: attr(data-text);
@@ -487,5 +361,3 @@ a {
                         }
                     }
         }
-        
-        
