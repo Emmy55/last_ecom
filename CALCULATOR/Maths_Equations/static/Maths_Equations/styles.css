@@ -55,7 +55,7 @@ a {
         background-color: rgb(75, 65, 65);
     }
     #dropdown * :hover{
-        background-color: rgba(0, 0, 255, 0.819);
+        background-color: rgba(25, 224, 42, 0.353);
     }
     #dropdown:focus{
         outline: none;
@@ -281,7 +281,7 @@ a {
                 background-color: rgb(75, 65, 65);
             }
             #dropdown * :hover{
-                background-color: rgba(0, 0, 255, 0.819);
+                background-color: rgba(25, 224, 42, 0.353);
             }
             #dropdown:focus{
                 outline: none;
