@@ -66,7 +66,7 @@ a {
     
     .cont{
         background-color: rgba(25, 224, 41, 0.619);
-        height: 33pc;
+        height: 40pc;
         border-radius: 10px;
         top: 39px;
         width: 100%;
@@ -156,7 +156,7 @@ a {
 
         .cont{
             background-color: rgba(25, 224, 41, 0.619);
-            height: 29pc;
+            height: 35pc;
             border-radius: 10px;
             top: 59px;
             width: 80%;
@@ -178,7 +178,7 @@ a {
             input  {
                 position: relative;
                 top: 95px;
-                left: 27%;
+                left: 26%;
                 color: white;
                 background-color: rgba(0, 0, 0, 0.861);
                 border-radius: 20px;
@@ -292,7 +292,7 @@ a {
             
             .cont{
                 background-color: rgba(25, 224, 41, 0.619);
-                height:  29pc;
+                height:  35pc;
                 border-radius: 10px;
                 top: 59px;
                 width: 60%;
